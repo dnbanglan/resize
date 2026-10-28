@@ -1,0 +1,6 @@
+{
+  "name": "Online Photoshop Pro",
+  "description": "পেশাদার অনলাইন ফটো এডিটর - বাংলা ও ইংরেজি টেক্সট, লেয়ার, ফিল্টার ও এক্সপোর্ট সুবিধা সহ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
