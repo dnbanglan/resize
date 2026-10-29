@@ -202,7 +202,7 @@ const say=t=>$('message').textContent=t;
 function fitCanvas(){
   const wrap=$('canvasWrap');
   const scale=Math.min(wrap.clientWidth/CW,wrap.clientHeight/CH);
-  $('zoomLabel').textContent='Zoom '+Math.round(scale*100)+'%';
+  $('zoomLabel').textContent='Zoom '+Math.round(scale*60)+'%';
   canvas.setDimensions({width:CW,height:CH});
   canvas.setZoom(1);
   canvas.calcOffset();
